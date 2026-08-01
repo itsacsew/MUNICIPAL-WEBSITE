@@ -1,0 +1,38 @@
+.site-footer {
+  background: #0b2a4a;
+  color: #eef2f7;
+  text-align: center;
+  padding: 1.2rem 1rem;
+  border-top: 4px solid #f6b83d;
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.site-footer p {
+  opacity: 0.9;
+  font-size: 0.9rem;
+  letter-spacing: 0.3px;
+}
+
+.footer-links {
+  display: flex;
+  gap: 0.8rem;
+  font-size: 0.8rem;
+}
+
+.footer-links a {
+  color: #b6ccdd;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.footer-links a:hover {
+  color: #f6b83d;
+}
+
+.separator {
+  color: #4a6a88;
+}   

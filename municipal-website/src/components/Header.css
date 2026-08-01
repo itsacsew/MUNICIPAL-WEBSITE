@@ -1,0 +1,45 @@
+/* components/Header.css */
+.site-header {
+  background: linear-gradient(135deg, #0b2a4a 0%, #1a4a6e 100%);
+  padding: 0.8rem 2rem;
+  border-bottom: 4px solid #f6b83d;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.logo-area {
+  display: flex;
+  align-items: baseline;
+  gap: 0.8rem;
+}
+
+.logo-area h1 {
+  color: #ffffff;
+  font-size: 1.8rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.tagline {
+  color: #cbdae8;
+  font-size: 0.85rem;
+  font-weight: 300;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 0.2rem 0.8rem;
+  border-radius: 20px;
+}
+
+.date-badge {
+  color: #f6b83d;
+  font-size: 0.85rem;
+  background: rgba(246, 184, 61, 0.15);
+  padding: 0.3rem 1rem;
+  border-radius: 20px;
+  border: 1px solid rgba(246, 184, 61, 0.3);
+}

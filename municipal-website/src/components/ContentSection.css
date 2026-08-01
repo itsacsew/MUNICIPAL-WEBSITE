@@ -1,0 +1,90 @@
+/* components/ContentSection.css */
+.content-section {
+  padding: 2rem 2rem 1.5rem 2rem;
+  background: #ffffff;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2rem;
+  color: #0b2a4a;
+  margin-bottom: 2rem;
+  font-weight: 600;
+}
+
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+}
+
+.card {
+  background: #f7faff;
+  border-radius: 14px;
+  padding: 1.8rem 1.2rem 1.5rem;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+  border: 1px solid #e9eef5;
+  transition: all 0.25s ease;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 25px rgba(11, 42, 74, 0.08);
+  border-color: #c8d6e8;
+}
+
+.card-icon {
+  font-size: 2.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.card h3 {
+  font-size: 1.15rem;
+  color: #0b2a4a;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.card p {
+  color: #3a5070;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin-bottom: 0.8rem;
+}
+
+.card-link {
+  color: #1a4a6e;
+  font-weight: 500;
+  font-size: 0.85rem;
+  text-decoration: none;
+  border-bottom: 2px solid #f6b83d;
+  padding-bottom: 0.15rem;
+  transition: 0.2s;
+}
+
+.card-link:hover {
+  color: #0b2a4a;
+  border-bottom-color: #0b2a4a;
+}
+
+@media (max-width: 900px) {
+  .cards-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .content-section {
+    padding: 1.5rem 1rem;
+  }
+  .cards-grid {
+    grid-template-columns: 1fr;
+  }
+  .section-title {
+    font-size: 1.5rem;
+  }
+}
