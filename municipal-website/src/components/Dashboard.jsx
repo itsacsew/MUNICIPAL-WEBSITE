@@ -1,6 +1,7 @@
 // components/Dashboard.jsx
 import React from 'react';
 import './Dashboard.css';
+import liloanImage from '../assets/liloan.jpg';
 
 const Dashboard = () => {
   const stats = [
@@ -12,10 +13,23 @@ const Dashboard = () => {
 
   return (
     <section className="dashboard">
-      <div className="dashboard-banner">
-        <h1>Welcome to Municipality of Liloan</h1>
-        <p>Your partner in progress and community development</p>
+      {/* Hero Banner with Image and Vision */}
+      <div className="dashboard-hero">
+        <div className="hero-image-container">
+          <img src={liloanImage} alt="Liloan Municipality" className="hero-image" />
+          <div className="hero-overlay">
+            <div className="hero-vision">
+              <span className="vision-badge">LILOAN VISION</span>
+              <p className="vision-text">
+                "A competitive growth center in Southern Leyte with a clean, safe, 
+                and resilient community of empowered Liloanons, governed by principled leaders."
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
+
+      {/* Stats Grid */}
       <div className="stats-grid">
         {stats.map((stat, index) => (
           <div className="stat-card" key={index}>

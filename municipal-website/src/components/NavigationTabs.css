@@ -62,13 +62,12 @@
 }
 
 .nav-links a:hover{
-    background:#f1b53b;
-    color:#12375b;
+    background: rgba(255, 255, 255, 0.2);
+    color: #ffffff;
 }
-
 .nav-links a.active{
-    background:#f1b53b;
-    color:#12375b;
+     background: rgba(255, 255, 255, 0.2);
+    color: #ffffff;
 }
 
 .location-pill{
