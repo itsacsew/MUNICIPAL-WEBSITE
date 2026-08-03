@@ -24,12 +24,12 @@
 
 .logo-wrapper img{
     width:178px;
-    margin-left:100px;
+    margin-left:80px;
     margin-top:2px;
 }
 
 .navbar-content{
-    margin-left:350px;
+    margin-left:240px;
     width:calc(100% - 120px);
     display:flex;
     justify-content:space-between;
@@ -48,14 +48,14 @@
 .nav-links{
     display:flex;
     list-style:none;
-    gap:18px;
+    gap:8px;
 }
 
 .nav-links a{
     color:white;
     text-decoration:none;
-    font-size:13px;
-    font-weight:600;
+    font-size:15px;
+    font-weight:700;
     padding:11px 20px;
     border-radius:25px;
     transition:.3s;

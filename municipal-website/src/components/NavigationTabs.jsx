@@ -7,10 +7,11 @@ const NavigationTabs = () => {
 
   const tabs = [
     "HOME",
-    "ABOUT US",
-    "SERVICES",
+    "MUNICIPAL GOVERNMENT",
+    "LEGISLATION",
+    "BUSINESS",
     "ANNOUNCEMENTS",
-    "TRANSPARENCY",
+    "TOURISM",
     "CONTACT",
   ];
 

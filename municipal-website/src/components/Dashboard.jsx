@@ -1,14 +1,14 @@
 // components/Dashboard.jsx
 import React from 'react';
 import './Dashboard.css';
-import liloanImage from '../assets/liloan.jpg';
+import liloanImage from '../assets/liloan3.png';
 
 const Dashboard = () => {
   const stats = [
-    { icon: '📊', value: '156', label: 'Total Barangays' },
-    { icon: '👥', value: '45,000+', label: 'Population' },
-    { icon: '📋', value: '28', label: 'Health Centers' },
-    { icon: '🏫', value: '32', label: 'Schools' },
+    { value: '156', label: 'Total Barangays' },
+    { value: '23,270', label: 'Population' },
+    { value: '28', label: 'Health Centers' },
+    { value: '32', label: 'Schools' },
   ];
 
   return (
